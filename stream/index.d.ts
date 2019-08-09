@@ -1,7 +1,7 @@
 /** Creates an empty stream. */
 declare function Stream<T = any>(): Stream<T>;
 /** Creates a stream with an initial value. */
-declare function Stream<T>(value: T): Stream<T>;
+declare function Stream<T>(value?: T): Stream<T>;
 
 declare interface Stream<T> {
 	/** Returns the value of the stream. */
